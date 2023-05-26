@@ -1,0 +1,116 @@
+.App {
+position: relative;
+text-align: center;
+font-size: 12px;
+bottom: 0;
+right: 0;
+z-index: 2;
+}
+.Barra {
+height: 10px;
+font-size: 20px;
+}
+
+.Fondo{
+    position: absolute;
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    min-height: 123vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100%;
+    }
+
+@media (max-width:1235px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 123vh;
+        min-width: 104vw;
+        height: 100%;
+        }
+}
+@media(max-width: 950px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 123vh;
+        min-width: 106vw;
+        
+        height: 100%;
+        }
+}
+@media(max-width: 850px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 123vh;
+        min-width: 110vw;
+        height: 100%;
+        }
+}
+@media(max-width: 800px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 123vh;
+        min-width: 118vw;
+        height: 100%;
+        }
+}
+@media(max-width: 600px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 130vh;
+        min-width: 125vw;
+        height: 100%;
+        }
+}
+@media(max-width: 500px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-height: 130vh;
+        min-width: 125vw;
+        height: 100%;
+        }
+}
+@media(max-width: 450px){
+    .Fondo{
+        position: absolute;
+        background-repeat: repeat;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        min-width: 200vw;
+        }
+}

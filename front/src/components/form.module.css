@@ -1,0 +1,63 @@
+.container{
+z-index: 20;
+height: 300px;
+width: 200px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: absolute;
+left: 30%;
+top: 140px;
+background: white;
+border-radius: 60px;
+border:2px solid black;
+padding: 250px;
+background-image: url("./assets/img/rick.jpg");
+background-position:center;
+}
+.error{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.texto{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+}
+
+.formulario{
+    margin-top: 90px;
+}
+.espacio{
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+
+.boton{
+    font-size: 20px;
+    background-color: transparent;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:450px) {
+    .container{
+        z-index: 20;
+        height: 280px;
+        width: 180px;
+        margin-left: -60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 30%;
+        top: 230px;
+        background: white;
+        border-radius: 60px;
+        border:2px solid black;
+        padding: 150px;
+        background-image: url("./assets/img/rick.jpg");
+        background-position:center;
+        }
+    
+}

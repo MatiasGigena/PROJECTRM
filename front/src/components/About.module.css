@@ -1,0 +1,15 @@
+.descripcion{
+z-index: 20;
+align-items: center;
+justify-content: center;
+position: absolute;
+color: white;
+border: 2px solid white;
+right: 12%;
+margin-top: 45px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+background: #0E1822;
+border-radius: 10px;
+}
+

@@ -1,0 +1,63 @@
+.Contenedor{
+border: solid rgb(0, 0, 0);
+height: 20vh;
+width: 33vw;
+display: flex;
+justify-content: flex-start;
+margin: 15px 0;
+z-index: 10;
+font-weight: bold;
+font-size:1.1rem;
+}
+
+.Boton{
+padding-top: 50px;
+padding-bottom: 50px;
+height: 100%;
+background-color: grey;
+color: white;
+display: inline;
+justify-content: center;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 3vw;
+transition: all 0.3s;
+font-weight: bold;
+}
+.Boton:hover{
+background-image: url(./assets/img/fax.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+width: 25vw;
+}
+
+
+
+.Lista{
+    background: rgba(0, 0, 0, 0.413);
+    border-color: solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Img{
+border-radius: 100;
+border-color: white;
+width: 10vw;
+height: 100%;
+}
+.links{
+    color:white;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+

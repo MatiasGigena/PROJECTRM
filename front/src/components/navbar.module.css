@@ -1,0 +1,61 @@
+.barraGral {
+  font-size: 0.9rem;
+}
+
+.about {
+  z-index: 20;
+  position: absolute;
+  display: flex;
+  right: 15%;
+  width: 6vw;
+  color: white;
+  background-color: #0e1822;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+
+.home {
+  z-index: 20;
+  position: absolute;
+  display: flex;
+  font-size: 1.9rem;
+  color: white;
+  right: 23%;
+  width: 5.3vw;
+  background-color: #0e1822;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+.favorites {
+  z-index: 20;
+  position: absolute;
+  display: flex;
+  font-size: 1.9rem;
+  color: white;
+  right: 4%;
+  width: 9vw;
+  background-color: #0e1822;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
+.logout {
+  z-index: 20;
+  position: absolute;
+  display: flex;
+  font-size: 1.8rem;
+  color: white;
+  right: 57%;
+  width: AUTO;
+  background-color: #0e1822;
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px 7px;
+  border-radius: 10px;
+}
