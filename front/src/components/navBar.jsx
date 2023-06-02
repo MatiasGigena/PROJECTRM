@@ -5,6 +5,7 @@ import style from './navbar.module.css';
 const Nav = ({ onSearch }) => {
   return (
     <div className={style.barraGral}>
+      
       <Link to='/about'>
         <button className={style.about}>ABOUT</button>
       </Link>
